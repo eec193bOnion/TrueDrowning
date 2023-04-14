@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".statusPage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="438dp"
+        android:text="Status:"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/my_Text_View"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="444dp"
+        android:layout_marginBottom="4dp"
+        android:text="person"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/searching"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="200dp"
+        android:onClick="searching"
+        android:text="Refresh" />
+
+    <ImageView
+        android:id="@+id/statusImage"
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="-2dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <Button
+        android:id="@+id/listPg"
+        android:layout_width="97dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="10dp"
+        android:onClick="listPg"
+        android:text="Search List" />
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-truedrowning-dev-170305-authRole",
+      "UnauthRoleArn": "arn:aws:iam::641015315508:role/amplify-truedrowning-dev-170305-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::641015315508:role/amplify-truedrowning-dev-170305-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-truedrowning-dev-170305-deployment",
+      "UnauthRoleName": "amplify-truedrowning-dev-170305-unauthRole",
+      "StackName": "amplify-truedrowning-dev-170305",
+      "StackId": "arn:aws:cloudformation:us-west-2:641015315508:stack/amplify-truedrowning-dev-170305/7e7245d0-b63a-11ed-8c45-06036dced8e9",
+      "AmplifyAppId": "d36ah9lyxpw6t1"
+    },
+    "categories": {
+      "auth": {
+        "truedrowning2d0ca29e": {}
+      },
+      "storage": {
+        "s3010026b5": {}
+      }
+    }
+  }
+}

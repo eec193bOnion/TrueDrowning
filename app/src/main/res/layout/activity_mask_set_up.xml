@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".maskSetUp">
+
+    <Button
+        android:id="@+id/sendMask"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="446dp"
+        android:onClick="sendMask"
+        android:text="Send Mask" />
+
+
+    <Button
+        android:id="@+id/largesize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="447dp"
+        android:layout_marginEnd="88dp"
+        android:onClick="largesize"
+        android:text="Large" />
+
+    <Button
+        android:id="@+id/smallsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="502dp"
+        android:layout_marginEnd="84dp"
+        android:onClick="smallsize"
+        android:text="Small" />
+
+    <Button
+        android:id="@+id/eraser"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="504dp"
+        android:onClick="eraser"
+        android:text="reset" />
+
+    <ImageView
+        android:id="@+id/poolImage"
+        android:layout_width="413dp"
+        android:layout_height="297dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="306dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <ImageView
+        android:id="@+id/canvas"
+        android:layout_width="wrap_content"
+        android:layout_height="207dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="356dp"
+        app:srcCompat="@drawable/drawhere" />
+
+
+</RelativeLayout>

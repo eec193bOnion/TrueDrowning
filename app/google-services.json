@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1025103231806",
+    "project_id": "truedrowning-c7e80",
+    "storage_bucket": "truedrowning-c7e80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025103231806:android:5011a6c38cc02c4efe4a6f",
+        "android_client_info": {
+          "package_name": "com.truedrowning.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025103231806-2k03kk9e7jag8h4kk9s7651kl4iv8l3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Hc8rI-PAlchAmtT4eV8Ycw8sUAk-WCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025103231806-2k03kk9e7jag8h4kk9s7651kl4iv8l3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
